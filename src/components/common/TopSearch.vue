@@ -3,7 +3,7 @@
     <van-search placeholder="请输入商品关键字" @search="goSearch" type="showcase" :class="{ login: isLogin() }" class="search"></van-search>
     <!--<search @on-submit="goSearch" :class="{ login: isLogin() }" :autoFixed="false" :cancel-text="''" class="search"></search>-->
     <!--<mt-search v-model="value"></mt-search>-->
-    <div class="left-button" v-if="!isLogin()" @click="toLogin"><span>登录</span></div>
+    <div class="left-button" v-if="!isLogin()" @click="toLogin"><span style="color:white;">登录</span></div>
   </div>
 </template>
 
@@ -43,7 +43,7 @@
       right: 0;
       left: auto;
       height: 100%;
-      line-height: 45px;
+      line-height: 60px;
       font-size: 15px;
       color: #8a8a8a;
       span {
@@ -53,9 +53,10 @@
     .search {
       width: 100%;
       box-sizing: border-box;
-      padding: 5px 60px 5px 10px;
+      padding: 10px 60px 10px 10px;
       /*padding-right: 100px;*/
       /*background: white;*/
+      background-color: #C8ADE6;
     }
     .search.login {
       padding-right: 10px;

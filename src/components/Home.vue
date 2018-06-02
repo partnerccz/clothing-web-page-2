@@ -64,7 +64,7 @@
         </swiper>
       </div>
     </div>
-    <bottom-menu></bottom-menu>
+    <bottom-menu  style="line-height: 16px;"></bottom-menu>
   </div>
 </template>
 
@@ -287,6 +287,11 @@
   }
 </script>
 
+<style>
+  html{
+    line-height: normal;
+  }
+</style>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
   .home {

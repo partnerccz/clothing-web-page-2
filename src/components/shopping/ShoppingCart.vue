@@ -71,7 +71,7 @@
         <mt-button type='danger' size='large' @click='toLogin'>登录</mt-button>
       </tr>
     </table>
-    <bottom-menu></bottom-menu>
+    <bottom-menu  style="line-height: 16px;"></bottom-menu>
   </div>
 </template>
 

@@ -15,11 +15,12 @@ body{
 .top-fixed-header {
   position: fixed;
   top: 0px;
-  height: 44px;
+  height: 54px;
   width: 100%;
-  background: #f8f8f8;
+  /*background: #f8f8f8;*/
+  background: #CBABE8;
   z-index: 2;
-  box-shadow: 0 0 10px 0 rgba(155,143,143,0.6);
+  /*box-shadow: 0 0 10px 0 rgba(155,143,143,0.6);*/
 }
 .bottom-fixed-footer {
   position: fixed;
